@@ -1,7 +1,7 @@
 # LLPickerView 选择器
 如果需要swift版的，可以issues一下。
 
-## Demo
+## 演示
 ![](https://github.com/LvJianfeng/LLPickerView/blob/master/Demo.gif "") 
 
 ## 多种样式可以控制，风格可以修改
