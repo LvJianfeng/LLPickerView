@@ -148,8 +148,8 @@
  *  确认
  */
 - (void)tapConfirmAction{
-    if (self.confirmBlcok) {
-        self.confirmBlcok(_row, self.pickerData[_row]);
+    if (self.confirmBlock) {
+        self.confirmBlock(_row, self.pickerData[_row]);
     }
     [self dismissPickerView];
 }
@@ -158,8 +158,8 @@
  *  取消或新建
  */
 - (void)tapCancelAction{
-    if (self.cancelBlcok) {
-        self.cancelBlcok();
+    if (self.cancelBlock) {
+        self.cancelBlock();
     }
     [self dismissPickerView];
 }
