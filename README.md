@@ -13,11 +13,11 @@
     // 控制标题是否为当前选择数据
     pickerView.isAllow = YES;
     // 确认的回调
-    pickerView.confirmBlcok = ^(NSInteger row, id object){
+    pickerView.confirmBlock = ^(NSInteger row, id object){
         NSLog(@"%ld--%@",row,object);
     };
     // 取消的回调，不需要写特殊操作可以忽略
-    pickerView.cancelBlcok = ^{
+    pickerView.cancelBlock = ^{
         NSLog(@"新建");
     };
     [self.view addSubview:pickerView];
