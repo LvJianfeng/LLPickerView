@@ -29,8 +29,8 @@ typedef void (^ConfirmActionBlock)(NSInteger row, id object);
 // 选择数据源
 @property (strong, nonatomic) NSMutableArray *pickerData;
 // 回调
-@property (strong, nonatomic) CancelActionBlock cancelBlcok;
-@property (strong, nonatomic) ConfirmActionBlock confirmBlcok;
+@property (strong, nonatomic) CancelActionBlock cancelBlock;
+@property (strong, nonatomic) ConfirmActionBlock confirmBlock;
 
 - (instancetype)initWithData:(NSArray *)data;
 - (instancetype)initWithData:(NSArray *)data title:(NSString *)title leftTitle:(NSString *)lTitle rightTitle:(NSString *)rTitle;
